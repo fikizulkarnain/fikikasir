@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nama pembeli:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:id="@+id/txtnamapembeli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nama barang:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:id="@+id/txtnamabarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="jumlah beli:"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtjumlahbeli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="harga:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:id="@+id/txtharga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="uang bayar:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <EditText
+                android:id="@+id/txtuangbayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:id="@+id/btnproses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="proses"/>
+
+            <TextView
+                android:id="@+id/txttotalbelanja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="total belanja:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/txtuangkembalian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="uang kembalian:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/txtbonus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bonus:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/txtketerangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="keterangan:"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btnreset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reset data"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
